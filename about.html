@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="layui/css/layui.css"/>
+    <link rel="stylesheet" href="css/style.css?v=0.1.0"/>
+    <link rel="stylesheet" href="css/about.css?v=0.1.0"/>
+</head>
+<body>
+<div>
+    <header>
+        <img class="bg" src="img/about/bg.png" alt=""/>
+        <div class="content">
+            <nav class="flex"></nav>
+            <div class="txt">
+                <h1>联系我们</h1>
+                <p class="hidden-xs-only">海外仓服务拥有无限的可能性</p>
+                <p class="hidden-xs-only">欢迎您联系我们一起探索</p>
+            </div>
+        </div>
+    </header>
+    <main class="about">
+        <section class="tab">
+            <ul class="menu flex">
+                <li class="active">公司简介</li>
+                <li>合作伙伴</li>
+                <li>联系我们</li>
+                <li>在线留言</li>
+            </ul>
+            <ul class="content">
+                <li>
+                    <div>
+                        <img src="img/service/tab1.png" alt=""/>
+                        <div class="profile">
+                            <p><img src="img/service/marks.png" alt=""/>&nbsp;&nbsp;
+                                电子商务的兴起和发展，为更多企业提供了跨境电商化的机会，跨境综
+                                合物流服务应运而生。<br/>
+                                好卖仓是隶属于德帕科技股份有限公司旗下的物流品牌，深耕美国市场
+                                多年，积累了丰富的跨境物流经验和实力。<br/>
+                                好卖仓专注于北美海外仓物流管理，为跨境电商企业、电商平台、外贸
+                                出口商场提供一件代发、退货标签、VC代发中转、FBA补仓、转运香港，
+                                以及拍照、小样、贴标打标、运输报价等一系列增值服务，用数据和技
+                                术引导物流协同现代化供应链管理服务，为用户高品质、高效率、低成
+                                本、全方位一站式跨境物流解决方案。</p>
+                            <h4>海外仓简介</h4>
+                            <span>欢迎您联系我们</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <h2>好卖仓 | 携手创建行业领袖</h2>
+                    <p class="desc">Sell the warehouse and Join hands to create industry leaders</p>
+                    <ul id="partners">
+                        <li><img src="img/logo/gray/01.png" alt=""></li>
+                        <li><img src="img/logo/gray/02.png" alt=""></li>
+                        <li><img src="img/logo/gray/03.png" alt=""></li>
+                        <li><img src="img/logo/gray/04.png" alt=""></li>
+                        <li><img src="img/logo/gray/05.png" alt=""></li>
+                        <li><img src="img/logo/gray/06.png" alt=""></li>
+                        <li><img src="img/logo/gray/07.png" alt=""></li>
+                        <li><img src="img/logo/gray/08.png" alt=""></li>
+                        <li><img src="img/logo/gray/09.png" alt=""></li>
+                        <li><img src="img/logo/gray/010.png" alt=""></li>
+                        <li><img src="img/logo/gray/011.png" alt=""></li>
+                        <li><img src="img/logo/gray/012.png" alt=""></li>
+                        <li><img src="img/logo/gray/013.png" alt=""></li>
+                        <li><img src="img/logo/gray/014.png" alt=""></li>
+                        <li><img src="img/logo/gray/015.png" alt=""></li>
+                        <li><img src="img/logo/gray/016.png" alt=""></li>
+                        <li><img src="img/logo/gray/017.png" alt=""></li>
+                        <li><img src="img/logo/gray/018.png" alt=""></li>
+                        <li><img src="img/logo/gray/019.png" alt=""></li>
+                        <li><img src="img/logo/gray/020.png" alt=""></li>
+                        <li><img src="img/logo/gray/021.png" alt=""></li>
+                        <li><img src="img/logo/gray/022.png" alt=""></li>
+                        <li><img src="img/logo/gray/023.png" alt=""></li>
+                        <li><img src="img/logo/gray/024.png" alt=""></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>好卖仓 | 联系我们</h2>
+                    <p class="desc">Overseas warehouse contact us</p>
+                    <img src="img/about/map.png" alt=""/>
+                    <div class="address">
+                        <p>武汉总部<br/>
+                            公司地址：湖北省武汉市洪山区<br/>雄楚大道1008号光谷万科中心4楼<br/>
+                            联系电话：027-87805779<br/>
+                            邮箱： info@delpatech.com</p>
+                        <p>上海分部<br/>
+                            公司地址：上海市闵行区泰虹路<br/>168弄1号303室<br/>
+                            联系电话：027-87805779<br/>
+                            邮箱： Bella@delpatech.com</p>
+                    </div>
+                </li>
+                <li>
+                    xx
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer></footer>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+<script src="layui/layui.js"></script>
+<script src="js/init.js?v=0.1.0"></script>
+<script>
+    $(".menu li").click(function () {
+        //通过 .index()方法获取元素下标，从0开始，赋值给某个变量
+        let _index = $(this).index();
+        console.log(_index);
+        //让内容框的第 _index 个显示出来，其他的被隐藏
+        $("ul.content>li").eq(_index).show();
+        $("ul.content>li").eq(_index).siblings().hide();
+        //改变选中时候的选项框的样式，移除其他几个选项的样式
+        $(this).addClass("active").siblings().removeClass("active");
+    });
+    $("#partners li img").mouseover(function () {
+        let src = $(this).attr("src");
+        src = src.replace('gray','colour');
+        $(this).attr("src",src);
+    });
+</script>
+</html>

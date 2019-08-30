@@ -1,0 +1,217 @@
+@import "reset.css";
+@import "display.css";
+@import "common.css";
+@import "iconfont.css";
+@font-face{
+    font-family: 'Sensibility';
+    src : url('../fonts/Sensibility.otf');
+}
+@font-face {
+    font-family: '造字工房尚黑字体';
+    src: url("../fonts/造字工房尚黑字体.ttf");
+}
+/*头部*/
+header{
+    position: relative;
+}
+header  img.bg{
+    width: 100%;
+}
+header .content{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 0;left: 0;bottom:0;
+    width: 100%;
+}
+header nav{
+    border-bottom: 1px rgba(255,255,255,.5) solid;
+}
+header nav img.logo{
+    width: 150px;
+    margin: 0 374px 0 258px;
+}
+@media screen and (max-width: 767px){
+    header nav img.logo {
+        width: 80px;
+        margin: 20px 30px;
+    }
+}
+header nav ul{
+
+}
+header nav ul a{
+    display: flex;
+    align-items: center;
+    height: 82px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 36px;
+}
+header nav ul a.active{
+    background: rgba(83,221,199,.6);
+}
+header nav .link{
+    font-size: 16px;
+    color: #fff;
+}
+header nav .link .website{
+    height: 82px;
+    line-height: 82px;
+    padding: 0 32px;
+    border-left: 1px rgba(255,255,255,.5) solid;
+    border-right: 1px rgba(255,255,255,.5) solid;
+    margin: 0 80px 0 90px;
+}
+@media screen and (max-width: 767px){
+    header nav .link .website {
+        margin: 0 10px!important;
+    }
+}
+header nav .link .system{
+
+}
+header nav .link .system img{
+    margin-left: 30px;
+}
+header .txt{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 70px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 22px;
+    margin: 0 0 30px 0;
+}
+@media screen and (max-width: 767px){
+    header h1{
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff;
+        letter-spacing: 12px;
+        margin: 0;
+    }
+}
+header p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 10px;
+    margin: 0 0 10px 0;
+}
+/*底部*/
+footer{
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+footer  img.bg{
+    width: 100%;
+}
+footer .content{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+}
+footer .content h2{
+    font-size: 36px;
+    margin: 36px 0 20px 0;
+}
+@media screen and (max-width: 767px){
+    footer .content h2{
+        font-size: 16px;
+        margin: 10px 0 ;
+    }
+}
+footer .content h3{
+    font-size: 20px;
+    margin: 0 0 34px 0;
+}
+footer .content ul{
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 450px;
+}
+@media screen and (max-width: 767px){
+    footer .content ul{
+        padding: 0 10px;
+    }
+}
+footer .content li{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+@media screen and (max-width: 767px){
+    footer .content li{
+        font-size: 10px;
+    }
+}
+footer .content li p{
+    margin: 0 0 46px 0;
+}
+@media screen and (max-width: 767px){
+    footer .content li p{
+        margin-bottom: 6px;
+    }
+}
+footer .content li i{
+    font-size: 62px;
+    margin: 0 0 60px 0;
+}
+footer .content li span{
+    color: #e6e6e6;
+}
+footer .other{
+    display: flex;
+    align-items: center;
+    background: #030303;
+    text-align: left;
+}
+footer .other img.logo{
+    width: 150px;
+    margin: 48px 160px 48px 390px;
+}
+@media screen and (max-width: 767px){
+    footer .other img.logo{
+        width: 80px;
+        margin: 10px 20px;
+    }
+}
+footer .other .txt{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 12px;
+}
+footer .other .txt ul{
+    display: flex;
+    color: #d4d1d1;
+    margin: 6px 0;
+}
+footer .other .txt li{
+    padding:0 20px;
+    border-right: 1px #868686 solid;
+}
+footer .other .txt li:first-child{
+    padding-left: 0;
+}
+footer .other .txt li:last-child{
+    border-right: none;
+}
+footer .other .txt p{
+    color: rgba(212,209,209,.65);
+    margin: 0;
+}
+@media screen and (max-width: 767px){
+    footer .other .txt p{
+        font-size: 10px;
+    }
+}

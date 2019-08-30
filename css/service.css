@@ -1,0 +1,127 @@
+/*选项卡*/
+.service .tab ul.menu{
+    justify-content: space-between;
+    background: #2f2f2f;
+    height: 172px;
+    font-size: 30px;
+    color: #fff;
+    padding: 0 300px;
+}
+.service .tab ul.menu li{
+    cursor: pointer;
+}
+.service .tab ul.menu li.active{
+    color: #adc8ff;
+}
+.service .tab ul.content li{
+    display: none;
+}
+.service .tab ul.content li:first-child{
+    display: block;
+}
+.service .tab ul.content li>div{
+    display: flex;
+    justify-content: flex-end;
+}
+/*tab1*/
+.service .tab ul.content li .profile{
+    text-align: left;
+    padding: 200px 140px 0;
+}
+.service .tab ul.content li .profile p{
+    display: flex;
+    align-items: flex-start;
+    line-height: 36px;
+    font-size: 24px;
+    color: #232323;
+    text-align: justify;
+}
+.service .tab ul.content li .profile h4{
+    width: 240px;
+    font-size: 32px;
+    color: #232323;
+    padding-top: 66px;
+    border-top: 2px #000 solid;
+    margin: 50px 0 10px;
+}
+.service .tab ul.content li .profile span{
+    font-size: 16px;
+    letter-spacing: 12px;
+    color: #232323;
+}
+/*tab-left*/
+.service .tab ul.content li .text{
+    text-align: right;
+    padding: 100px;
+}
+.service .tab ul.content li .text h3{
+    font-size: 36px;
+    color: #161616;
+    margin: 0 0 50px 0;
+}
+.service .tab ul.content li .text h3{
+    font-size: 36px;
+    color: #161616;
+    margin: 0 0 50px 0;
+}
+.service .tab ul.content li .text p{
+    line-height: 30px;
+    font-size: 20px;
+    color: #afafaf;
+    margin: 0 0 50px 0;
+}
+/*tab-icon*/
+.service .tab ul.content li .icon{
+    display: flex;
+    justify-content: space-around;
+    background: #2f2f2f;
+    font-size: 36px;
+    font-family:"造字工房尚黑字体";
+    color: #fff;
+    padding: 10px 0 20px 0;
+}
+.service .tab ul.content li .icon i{
+    font-size: 88px;
+    color: #439f46;
+}
+/*tab-row*/
+.service .tab ul.content li .row{
+    display: flex;
+    justify-content: center;
+    width: 1056px;
+    border-bottom: 2px #e1e7eb solid;
+    margin: 0 auto;
+}
+.service .tab ul.content li .row .cell{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: #f3f3f3;
+}
+.service .tab ul.content li .row .cell:first-child{
+    border-right: 2px #e1e7eb solid;
+}
+.service .tab ul.content li .row .cell span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px 0 10px;
+}
+.service .tab ul.content li .row .cell span i{
+    font-size: 110px;
+    color: #4879b1;
+}
+.service .tab ul.content li .row .cell h4{
+    font-size: 26px;
+    color: #161616;
+}
+.service .tab ul.content li .row .cell p{
+    font-size: 18px;
+    color: #afafaf;
+    margin: 20px 0;
+}

@@ -1,0 +1,147 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+section{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+section h2{
+    font-size: 36px;
+    color: #161616;
+    margin: 66px 0 18px;
+}
+section p.desc{
+    font-size: 20px;
+    color: #afafaf;
+    margin: 0 0 56px 0;
+}
+@media screen and (max-width: 767px){
+    section h2{
+        font-size: 18px;
+        margin: 20px 0 10px;
+    }
+    .index section p.desc{
+        font-size: 14px;
+        margin: 0 0 20px 0;
+    }
+}
+/*横幅标题*/
+p.title{
+    background: #2f2f2f;
+    font-size: 56px;
+    font-family:"造字工房尚黑字体";
+    letter-spacing: 8px;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+@media screen and (max-width: 767px){
+    p.title{
+        font-size: 20px;
+    }
+}
+/*进入系统*/
+.enter{
+    text-align: left;
+}
+.enter img.bg{
+    width: 100%;
+}
+.enter .content{
+    display: flex;
+    position: absolute;
+    top: 0;right: 0;bottom: 0;left: 0;
+    padding: 0 0 0 120px;
+}
+@media screen and (max-width: 767px){
+    .enter .content{
+        padding: 0 0 0 10px;
+    }
+}
+.enter .content h4{
+    font-size: 36px;
+    color: #fff;
+    margin: 70px 0 35px;
+}
+@media screen and (max-width: 767px){
+    .enter .content h4{
+        font-size: 14px;
+        margin: 20px 0 10px;
+    }
+}
+.enter .content h3{
+    font-size: 40px;
+    color: #fff;
+    margin: 0 0 80px 0;
+}
+.enter .content a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #404551;
+    width: 222px;
+    height: 66px;
+    font-size: 24px;
+    color: #f6f7f8;
+    border-radius: 30px;
+    border: 2px #f6f7f8 solid;
+}
+@media screen and (max-width: 767px){
+    .enter .content a{
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+.enter .content .img{
+    display: inline-block;
+    position: relative;
+}
+@media screen and (max-width: 767px){
+    .enter .content .img{
+        height: 100%;
+    }
+}
+@media screen and (max-width: 767px){
+    .enter .content .img img:first-child{
+        height: 100%;
+    }
+}
+.enter .content .img .anim{
+    position: absolute;
+    top: 50%;left: 50%;
+    margin-left: -212px;
+    margin-top: -228px;
+    animation: animation-06 5s cubic-bezier(.63, .07, .2, 1) 0s infinite;
+}
+@media screen and (max-width: 767px){
+    .enter .content .img .anim{
+        height: 90%;
+        margin-left: -62px;
+        margin-top: -62px;
+    }
+}
+@keyframes animation-06 {
+    from { transform:rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+/*合作伙伴*/
+#partners{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    padding: 0 260px;
+    margin: 0 0 140px 0;
+}
+@media screen and (max-width: 767px){
+    #partners{
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    #partners img{
+        width: 80px;
+    }
+}

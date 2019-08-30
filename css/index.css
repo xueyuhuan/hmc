@@ -1,0 +1,119 @@
+/*我的服务*/
+.index .service ul{
+    flex-flow: wrap;
+    width: 80%;
+    margin: 0 auto 100px;
+}
+@media screen and (max-width: 767px){
+    .index .service ul{
+        width: 90%;
+    }
+}
+.index .service ul li{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 270px;
+    border: 1px #ecf2f7 solid;
+}
+.index .service li i{
+    font-size: 80px;
+    color: #4879b1;
+}
+.index .service li span{
+    display: inline-block;
+    font-size: 24px;
+    color: #161616;
+    margin: 20px 0 0 0;
+}
+.index .service li a{
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    line-height: 80px;
+    font-size: 18px;
+    color: #4294ec;
+    border: 1px #4294ec solid;
+    border-radius: 5px;
+}
+.index .service li p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #afafaf;
+    margin: 24px 0 0 0;
+}
+/*数字*/
+.index .number img.bg{
+    width: 100%;
+}
+.index .number .content{
+    position: absolute;
+    top: 0;right: 0;bottom: 0;left: 0;
+}
+.index .number .content h3{
+    font-size: 36px;
+    color: #fff;
+    margin: 50px 0 90px;
+}
+@media screen and (max-width: 767px){
+    .index .number .content h3{
+        font-size: 16px;
+        margin: 40px 0 0 0;
+    }
+}
+.index .number .content ul{
+    justify-content: center;
+    align-items: flex-start;
+}
+.index .number .content ul li{
+    color: #fff;
+}
+.index .number .content ul li img{
+    margin: 0 60px;
+}
+.index .number .content ul li i{
+    font-size: 120px;
+}
+.index .number .content ul li span{
+    display: block;
+    font-family: "Sensibility";
+    font-size: 74px;
+    margin: 60px 0 0 0;
+}
+/*客户评价*/
+.index .rate{
+    margin: 0 0 80px 0;
+}
+.index .rate .content{
+    width: 50%;
+    margin: 0 auto;
+}
+#carousel{
+    margin: 0 auto;
+}
+.index .rate .carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+    height: 200px;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+.index .rate .txt{
+    margin-left: 60px;
+}
+.index .rate .txt  h5{
+    font-size: 20px;
+    color: #181818;
+    margin: 0 0 20px 0;
+}
+.index .rate .txt p{
+    width: 342px;
+    font-size: 16px;
+    color: #afafaf;
+    text-align: left;
+    margin: 0;
+}

@@ -1,0 +1,63 @@
+/*选项卡*/
+.about .tab ul.menu{
+    justify-content: space-between;
+    background: #2f2f2f;
+    height: 172px;
+    font-size: 30px;
+    color: #fff;
+    padding: 0 300px;
+}
+.about .tab ul.menu li{
+    cursor: pointer;
+}
+.about .tab ul.menu li.active{
+    color: #adc8ff;
+}
+.about .tab ul.content>li{
+    display: none;
+}
+.about .tab ul.content>li:first-child{
+    display: block;
+}
+.about .tab ul.content li>div{
+    display: flex;
+    justify-content: flex-end;
+}
+/*tab1*/
+.about .tab ul.content li .profile{
+    text-align: left;
+    padding: 200px 140px 0;
+}
+.about .tab ul.content li .profile p{
+    display: flex;
+    align-items: flex-start;
+    line-height: 36px;
+    font-size: 24px;
+    color: #232323;
+    text-align: justify;
+}
+.about .tab ul.content li .profile h4{
+    width: 240px;
+    font-size: 32px;
+    color: #232323;
+    padding-top: 66px;
+    border-top: 2px #000 solid;
+    margin: 50px 0 10px;
+}
+.about .tab ul.content li .profile span{
+    font-size: 16px;
+    letter-spacing: 12px;
+    color: #232323;
+}
+/*address*/
+.about .tab ul.content li .address{
+    display: flex;
+    justify-content: space-between;
+    line-height: 36px;
+    font-size: 22px;
+    color: #4a4646;
+    padding: 68px 460px 100px;
+}
+.about .tab ul.content li .address p{
+    text-align: left;
+}
