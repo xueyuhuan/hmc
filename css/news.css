@@ -19,6 +19,13 @@
 .news .tab .content>div:first-child{
     display: block;
 }
+/*tab3——嵌套*/
+.news .tab .content .tab3{
+    font-size: 0;
+}
+.news .tab .content .tab3 iframe{
+    border: none;
+}
 /*列表*/
 .news .tab .content .list ul{
     padding: 120px 320px 0;
