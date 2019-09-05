@@ -1,0 +1,37 @@
+article{
+    padding: 48px 360px;
+}
+article .content{
+    background: #eaeaea;
+    padding: 20px 50px;
+}
+article header{
+    text-align: center;
+    border-bottom: 2px #dadada  solid;
+    margin: 0 0 50px 0;
+}
+article header h1{
+    font-size: 36px;
+    color: #313131;
+    letter-spacing: 0px;
+    margin: 40px 0 30px;
+}
+article header .info{
+    font-size: 20px;
+    color: #313131;
+    text-align: left;
+    padding: 0 0 0 38px;
+    margin: 0 0 40px 0;
+}
+article p{
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: rgba(0,0,0,.7);
+    padding: 0 30px;
+    margin: 0 0 30px 0;
+}
+article p + img{
+    display: block;
+    margin: 0 auto 30px;
+}

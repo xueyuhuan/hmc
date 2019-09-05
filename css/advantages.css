@@ -39,3 +39,26 @@
     text-align: left;
     margin: 70px 0;
 }
+/*承诺*/
+.promise ul{
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: wrap;
+    padding: 0 180px;
+    margin: 0 0 50px 0;
+}
+.promise ul i{
+    font-size: 74px;
+    color: #8b7cc1;
+}
+.promise ul h4{
+    font-size: 24px;
+    color: #161616;
+    margin: 20px 0;
+}
+.promise ul p{
+    width: 330px;
+    font-size: 18px;
+    color: #afafaf;
+    margin: 0;
+}

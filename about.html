@@ -7,8 +7,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="layui/css/layui.css"/>
-    <link rel="stylesheet" href="css/style.css?v=0.1.0"/>
-    <link rel="stylesheet" href="css/about.css?v=0.1.0"/>
+    <link rel="stylesheet" href="css/style.css?v=0.2.0"/>
+    <link rel="stylesheet" href="css/about.css?v=0.2.0"/>
 </head>
 <body>
 <div>
@@ -97,7 +97,18 @@
                     </div>
                 </li>
                 <li>
-                    xx
+                    <form class="layui-form" action="">
+                        <div class="row">
+                            <label class="flex"><span>姓名</span><input type="text" name="title" required  lay-verify="required" placeholder="请输入您的名字" autocomplete="off" class="layui-input"></label>
+                            <label class="flex"><span>电话</span><input type="text" name="title" required  lay-verify="required" placeholder="请输入您的电话" autocomplete="off" class="layui-input"></label>
+                        </div>
+                        <div class="row">
+                            <label class="flex"><span>邮箱</span><input type="text" name="title" required  lay-verify="required" placeholder="请输入您的邮箱" autocomplete="off" class="layui-input"></label>
+                            <label class="flex"><span>地址</span><input type="text" name="title" required  lay-verify="required" placeholder="请输入您的地址" autocomplete="off" class="layui-input"></label>
+                        </div>
+                        <label class="textarea flex"><span>留言</span><textarea name="desc" placeholder="请在此处留言" class="layui-textarea"></textarea></label>
+                        <div class="btn"><button>提交</button></div>
+                    </form>
                 </li>
             </ul>
         </section>
@@ -109,10 +120,17 @@
 <script src="layui/layui.js"></script>
 <script src="js/init.js?v=0.1.0"></script>
 <script>
+    layui.use('form', function(){
+        let form = layui.form;
+        //监听提交
+        form.on('submit(formDemo)', function(data){
+            layer.msg(JSON.stringify(data.field));
+            return false;
+        });
+    });
     $(".menu li").click(function () {
         //通过 .index()方法获取元素下标，从0开始，赋值给某个变量
         let _index = $(this).index();
-        console.log(_index);
         //让内容框的第 _index 个显示出来，其他的被隐藏
         $("ul.content>li").eq(_index).show();
         $("ul.content>li").eq(_index).siblings().hide();

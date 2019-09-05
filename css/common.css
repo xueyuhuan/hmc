@@ -30,7 +30,8 @@ section p.desc{
 }
 /*横幅标题*/
 p.title{
-    background: #2f2f2f;
+    background: url("../img/ptitle.png") no-repeat;
+    background-size: cover;
     font-size: 56px;
     font-family:"造字工房尚黑字体";
     letter-spacing: 8px;
