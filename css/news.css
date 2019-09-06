@@ -52,3 +52,10 @@
     font-size: 16px;
     color: #9ea7ad;
 }
+/*折叠面板*/
+.news .tab .content .tab4{
+    padding: 0 200px 50px;
+}
+.news .tab .content .tab4 .layui-collapse{
+    text-align: left;
+}

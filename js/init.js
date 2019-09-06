@@ -1,8 +1,8 @@
 $(function() {
-    $(".enter").load("enter.html");
+    $(".enter").load("enter.html?v=0.2.0");
     // $("#partners").load("partners.html");
-    $("footer").load("footer.html");
-    $("nav").load("header.html", function () {
+    $("footer").load("footer.html?v=0.2.0");
+    $("nav").load("header.html?v=0.2.0", function () {
         let links = $("header li a"),
             index = 0, //默认第一个菜单项
             //取当前URL最后一个/后面的文件名，pop方法是删除最后一个元素并返回最后一个元素
