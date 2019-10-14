@@ -9,12 +9,12 @@ section{
     overflow: hidden;
 }
 section h2{
-    font-size: 36px;
+    font-size: 24px;
     color: #161616;
-    margin: 66px 0 18px;
+    margin: 100px 0 22px;
 }
 section p.desc{
-    font-size: 20px;
+    font-size: 18px;
     color: #afafaf;
     margin: 0 0 56px 0;
 }
@@ -63,7 +63,7 @@ p.title{
     }
 }
 .enter .content h4{
-    font-size: 36px;
+    font-size: 24px;
     color: #fff;
     margin: 70px 0 35px;
 }

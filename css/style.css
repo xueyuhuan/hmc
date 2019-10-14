@@ -28,8 +28,8 @@ header nav{
     border-bottom: 1px rgba(255,255,255,.5) solid;
 }
 header nav img.logo{
-    width: 150px;
-    margin: 0 374px 0 258px;
+    width: 8%;
+    margin: 0 16%;
 }
 @media screen and (max-width: 767px){
     header nav img.logo {
@@ -48,6 +48,7 @@ header nav ul a{
     color: #fff;
     cursor: pointer;
     padding: 0 36px;
+	white-space: nowrap;
 }
 header nav ul a.active{
     background: rgba(83,221,199,.6);
@@ -70,7 +71,7 @@ header nav .link .website{
     }
 }
 header nav .link .system{
-
+	white-space: nowrap;
 }
 header nav .link .system img{
     margin-left: 30px;
@@ -83,11 +84,11 @@ header .txt{
     align-items: center;
 }
 header h1{
-    font-size: 70px;
+    font-size: 48px;
     font-weight: 500;
     color: #fff;
     letter-spacing: 22px;
-    margin: 0 0 30px 0;
+    margin: 0 0 40px 0;
 }
 @media screen and (max-width: 767px){
     header h1{
@@ -99,7 +100,7 @@ header h1{
     }
 }
 header p{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     color: #fff;
     letter-spacing: 10px;
@@ -120,8 +121,8 @@ footer .content{
     width: 100%;
 }
 footer .content h2{
-    font-size: 36px;
-    margin: 36px 0 20px 0;
+    font-size: 24px;
+    margin: 46px 0 22px 0;
 }
 @media screen and (max-width: 767px){
     footer .content h2{
@@ -130,7 +131,7 @@ footer .content h2{
     }
 }
 footer .content h3{
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 0 34px 0;
 }
 footer .content ul{

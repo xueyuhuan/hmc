@@ -3,7 +3,7 @@
     justify-content: space-between;
     background: #2f2f2f;
     height: 172px;
-    font-size: 30px;
+    font-size: 18px;
     color: #fff;
     padding: 0 300px;
 }
@@ -32,20 +32,20 @@
     display: flex;
     align-items: flex-start;
     line-height: 36px;
-    font-size: 24px;
+    font-size: 18px;
     color: #232323;
     text-align: justify;
 }
 .about .tab ul.content li .profile h4{
     width: 240px;
-    font-size: 32px;
+    font-size: 24px;
     color: #232323;
     padding-top: 66px;
     border-top: 2px #000 solid;
     margin: 50px 0 10px;
 }
 .about .tab ul.content li .profile span{
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 12px;
     color: #232323;
 }
@@ -54,7 +54,7 @@
     display: flex;
     justify-content: space-between;
     line-height: 36px;
-    font-size: 22px;
+    font-size: 18px;
     color: #4a4646;
     padding: 68px 460px 100px;
 }
